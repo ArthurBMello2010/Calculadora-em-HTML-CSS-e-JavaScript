@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+h1 {
+    font-family: arial;
+    font-size: 35px;
+    text-align: center;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#resultado{
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    padding: 5px;
+}
+
+body{
+    background-color: rgb(88, 143, 0);
+    margin: 0px;
+}
